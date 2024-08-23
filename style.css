@@ -133,6 +133,7 @@ body {
 .recipe-page__nutrition-info {
   margin: 15px 0;
   font-family: var(--outfit);
+  color: var(--stone-600);
 }
 
 .recipe-page__nutrition-table {
@@ -142,6 +143,7 @@ body {
 
 .recipe-page__nutrition-table tr td {
   padding: 15px;
+  color: var(--stone-600);
 }
 
 .recipe-page__nutrition-value {

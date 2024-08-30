@@ -50,7 +50,7 @@ body {
 .recipe-page__header {
   font-family: var(--young-serif);
   font-size: 2.5rem;
-  margin: 1rem 0;
+  margin-bottom: 1.5rem;
   color: var(--stone-900);
   font-weight: 100;
 }
@@ -63,9 +63,9 @@ body {
 }
 
 .recipe-page__prep {
-  margin-left: 1.25rem;
+  margin-left: 1.5rem;
   font-family: var(--outfit);
-  margin-bottom: 3.5em;
+  margin-bottom: 2em;
 }
 
 .recipe-page__prep-title {
@@ -83,14 +83,14 @@ body {
 }
 
 .recipe-page__ingredients {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .recipe-page__ingredients-title {
   color: var(--brown-800);
   font-size: 28px;
   font-family: var(--young-serif);
-  margin-bottom: 1.25em;
+  margin-bottom: 1.5rem;
   font-weight: 100;
 }
 
@@ -103,11 +103,12 @@ body {
 }
 
 .recipe-page__ingredients-list li::before {
-  margin-left: 1em;
+  margin-left: 8px;
+  margin-right: 16px;
 }
 
 .recipe-page__instructions {
-  margin-bottom: 4em;
+  margin: 2em 0;
 }
 
 .recipe-page__instructions-title {
@@ -121,6 +122,10 @@ body {
   margin: 15px;
   color: var(--stone-600);
   font-family: var(--outfit);
+}
+
+.recipe-page__nutrition {
+  margin-top: 4em;
 }
 
 .recipe-page__nutrition-title {
